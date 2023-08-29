@@ -1,0 +1,8 @@
+spring:
+  profiles: local
+  datasource:
+      url: jdbc:mysql://192.168.189.3:3306/shiroStudy?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: wo610783
+logging:
+  config: classpath:logback-local.xml
